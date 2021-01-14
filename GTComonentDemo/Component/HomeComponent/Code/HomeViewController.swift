@@ -7,6 +7,7 @@
 
 import UIKit
 import UserCenterComponent
+import SnapKit
 
 public class HomeViewController: UIViewController {
 
@@ -20,6 +21,9 @@ public class HomeViewController: UIViewController {
     
     private var source : [String] = []
 
+    private lazy var imageView: UIImageView = {
+        return UIImageView(image: UIImage.currentBundle("login_qq_icon"))
+    }()
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,8 +40,18 @@ public class HomeViewController: UIViewController {
         source.append("enterprise")
         #endif
         
+        self.view.addSubview(imageView)
+        imageView.snp.makeConstraints { (make) in
+            make.top.equalToSuperview().offset(100)
+            make.centerX.equalToSuperview()
+            make.height.width.equalTo(80)
+        }
+        
         self.view.addSubview(tableView)
-        tableView.frame = self.view.bounds
+        tableView.snp.makeConstraints { (make) in
+            make.left.bottom.right.equalToSuperview()
+            make.height.equalTo(400)
+        }
         
     }
 

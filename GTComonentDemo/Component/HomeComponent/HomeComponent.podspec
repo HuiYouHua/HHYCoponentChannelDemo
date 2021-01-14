@@ -12,8 +12,12 @@ s.source           = { :git => 'https://github.com/', :tag => s.version.to_s }
 s.ios.deployment_target = '11.0'
 
 s.source_files = 'Code/**/*'
+s.resource_bundles={
+'HomeComponentLibrary'=>['Media.xcassets','Code/**/*.xib'],
+}
 s.static_framework = true
 
 s.dependency 'UserCenterComponent'
+s.dependency 'SnapKit'
 
 end

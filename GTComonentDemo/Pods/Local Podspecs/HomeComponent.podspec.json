@@ -15,9 +15,18 @@
     "ios": "11.0"
   },
   "source_files": "Code/**/*",
+  "resource_bundles": {
+    "HomeComponentLibrary": [
+      "Media.xcassets",
+      "Code/**/*.xib"
+    ]
+  },
   "static_framework": true,
   "dependencies": {
     "UserCenterComponent": [
+
+    ],
+    "SnapKit": [
 
     ]
   }
