@@ -1,0 +1,2 @@
+# HHYCoponentChannelDemo
+通过Target和预编译宏控制包功能及资源
