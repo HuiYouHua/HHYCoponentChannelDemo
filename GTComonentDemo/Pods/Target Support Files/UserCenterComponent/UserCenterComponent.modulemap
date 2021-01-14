@@ -1,0 +1,6 @@
+framework module UserCenterComponent {
+  umbrella header "UserCenterComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

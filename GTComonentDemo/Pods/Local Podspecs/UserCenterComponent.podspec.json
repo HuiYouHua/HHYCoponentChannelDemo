@@ -1,0 +1,19 @@
+{
+  "name": "UserCenterComponent",
+  "version": "0.0.1",
+  "summary": "A short description of UserCenterComponent.",
+  "description": "库",
+  "homepage": "https://github.com/",
+  "authors": {
+    "author": "test@163.com"
+  },
+  "source": {
+    "git": "https://github.com/",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "Code/**/*",
+  "static_framework": true
+}

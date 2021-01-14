@@ -1,0 +1,31 @@
+PODS:
+  - HomeComponent (0.0.1):
+    - UserCenterComponent
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - UserCenterComponent (0.0.1)
+
+DEPENDENCIES:
+  - HomeComponent (from `Component/HomeComponent/HomeComponent.podspec`)
+  - Kingfisher (~> 5.15.7)
+  - UserCenterComponent (from `Component/UserCenterComponent/UserCenterComponent.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  HomeComponent:
+    :path: Component/HomeComponent/HomeComponent.podspec
+  UserCenterComponent:
+    :path: Component/UserCenterComponent/UserCenterComponent.podspec
+
+SPEC CHECKSUMS:
+  HomeComponent: beb5472ab7104675e27614f40e155ec2760b67e0
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  UserCenterComponent: 83ab09675f1c376d8ac1f2273b930ac4c8655e25
+
+PODFILE CHECKSUM: cc5e64a3bed183660057b95dfabc8ebf97523f27
+
+COCOAPODS: 1.10.1
